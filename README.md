@@ -1,4 +1,4 @@
-# Solana Sentinment Price Predicition
+# Solana Sentinment Analysis
 
 ## Team Members
 * Nicholas DePalma
