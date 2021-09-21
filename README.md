@@ -7,22 +7,25 @@
 * Jamel Harvey
 
 ## Project Description
-The daily sentiment of Solana will be used to predict the future price action of Solana. 
+A look into various machine learning models, using natural language processing and classification to predict price action.
 
 ## Research Questions to Answer
 * What is the historical daily sentiment of Solana?
 * What is the historical daily closing price for Solana?
 * How can daily sentinment be used to predict the price action of Solana?
 
-## Datasets to be Used
-* Articles pulled from News API
-* Closing prices pulled from Google Finance
+## Datasets Used
+* Articles pulled from Crypto News API
+* Closing prices pulled from CoinGecco
+
+## Models Used
+* Balanced Random Forrest Classifier
+* Easy Ensemble Classidescentfier
+* Stochastic Gradient 
 
 ## Breakdown of Tasks
-* Use News API to gather data for Articles related to Solona
-* Perform a sentinment analysis for the 90 day period and create a dataframe
-* Create a dataframe of daily closing prices for the 90 day period 
+* Use the news API to gather data for articles related to Solona dating back from April 2021
+* Perform a sentinment analysis and set parameters for a binary score to classify positive and negative sentinment
 * Concatenate all data into a single dateframe 
-* Select a model to train the data
-* Test the model 
+* Train the data and test each model
 * Evaluate the results
